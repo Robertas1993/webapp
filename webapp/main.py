@@ -51,5 +51,5 @@ if balansas > 0:
     st.markdown(f"**Balansas**: :green[{balansas:.2}]")
 elif balansas < 0:
     st.markdown(f"**Balansas**: :red[{balansas:.2}]")
-else balansas < 0:
+else: balansas < 0:
     st.markdown(f"**Balansas**: :red[{balansas:.2}]")
