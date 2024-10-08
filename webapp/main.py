@@ -48,8 +48,10 @@ with st.expander("Pajamos"):
         st.markdown(f":green[{irasas.tipas}]: {irasas.value} for {irasas.aprasymas}")
  
 if balansas > 0:
-    st.markdown(f"**Balansas**: :green[{balansas:.2}]")
+    st.markdown(f"**Balansas**: :green[{balansas:.2f}]")
+
 elif balansas < 0:
-    st.markdown(f"**Balansas**: :red[{balansas:.2}]")
+    st.markdown(f"**Balansas**: :red[{balansas:.2f}]")
+
 else:
-     st.markdown(f"**Balansas**: :red[{balansas:.2}]")
+    st.markdown(f"**Balansas**: {balansas:.2f}")
